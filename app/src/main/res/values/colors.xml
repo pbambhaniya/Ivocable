@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#087a8a</color>
+    <color name="colorPrimaryDark">#087a8a</color>
+    <color name="colorAccent">#087a8a</color>
+
+    <color name="colorback">#e4e7e7</color>
+    <color name="colorwhite">#ffffff</color>
+    <color name="colorblack">#000000</color>
+
+
+    <color name="theme_primary">#2196F3</color>
+    <color name="theme_primary_text_inverted">#ffffff</color>
+    <color name="theme_secondary_text_inverted">#8affffff</color>
+
+    <color name="a">#dd335075</color>
+
+    <color name="dark_gray">#50000000</color>
+
+
+    <color name="dot_dark_screen1">#3b3b3b</color>
+    <color name="dot_dark_screen2">#3b3b3b</color>
+    <color name="dot_dark_screen3">#3b3b3b</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#8f8f8f</color>
+    <color name="dot_light_screen2">#8f8f8f</color>
+    <color name="dot_light_screen3">#8f8f8f</color>
+</resources>

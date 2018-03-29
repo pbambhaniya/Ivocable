@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorback"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/dialog_holo_light_frame">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    card_view:cardBackgroundColor="#50000000"
+                    android:elevation="3dp">
+
+                    <RelativeLayout
+                        android:id="@+id/ll_maths"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/lin_maths"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_maths"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:src="@drawable/mathsforhome" />
+
+                            <TextView
+                                android:id="@+id/txt_maths"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="Maths"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/txt_twmaths"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="Total Words:"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:id="@+id/txt_twnmaths"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="12dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/txt_tfmaths"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="Total Formula:"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:id="@+id/txt_tfnmaths"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="12dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/maths_lock"
+                            android:layout_width="30dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/lock" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/dialog_holo_light_frame">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:elevation="3dp"
+                    card_view:cardBackgroundColor="#50000000">
+
+                    <RelativeLayout
+                        android:id="@+id/ll_chemistry"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/lin_chemistry"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_chemistry"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:src="@drawable/chemistryforhome" />
+
+                            <TextView
+                                android:id="@+id/txt_chemistry"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="Chemistry"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal"
+                                android:visibility="visible">
+
+                                <TextView
+                                    android:id="@+id/txt_twchemistry"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="Total Words:"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:id="@+id/txt_twnchemistry"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="0"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="12dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal"
+                                android:visibility="visible">
+
+                                <TextView
+                                    android:id="@+id/txt_tfchemistry"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="Total Formula:"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:id="@+id/txt_tfnchemistry"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="0"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="12dp" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/chemistry_lock"
+                            android:layout_width="30dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/lock" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/dialog_holo_light_frame">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:elevation="3dp"
+                    card_view:cardBackgroundColor="#50000000">
+
+                    <RelativeLayout
+                        android:id="@+id/ll_physics"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/lin_physics"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_physics"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:src="@drawable/physicsforhome" />
+
+                            <TextView
+                                android:id="@+id/txt_physics"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="Physics"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal"
+                                android:visibility="visible">
+
+                                <TextView
+                                    android:id="@+id/txt_twphysics"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="Total Words:"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:id="@+id/txt_twnphysics"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="0"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="12dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal"
+                                android:visibility="visible">
+
+                                <TextView
+                                    android:id="@+id/txt_tfphysics"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="Total Formula:"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:id="@+id/txt_tfnphysics"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="0"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="12dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/physics_lock"
+                            android:layout_width="30dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/lock" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/dialog_holo_light_frame">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:elevation="3dp"
+                    card_view:cardBackgroundColor="#50000000">
+
+                    <RelativeLayout
+                        android:id="@+id/ll_biology"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/lin_biology"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_biology"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:src="@drawable/biologyforhome" />
+
+                            <TextView
+                                android:id="@+id/txt_biology"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="Biology"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal"
+                                android:visibility="visible">
+
+                                <TextView
+                                    android:id="@+id/txt_twbiology"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="Total Words:"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:id="@+id/txt_twnbiology"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="0"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="12dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal"
+                                android:visibility="visible">
+
+                                <TextView
+                                    android:id="@+id/txt_tfbiology"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="Total Formula:"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:id="@+id/txt_tfnbiology"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="2dp"
+                                    android:text="0"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="12dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/biology_lock"
+                            android:layout_width="30dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/lock" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_home_footer">
+        </com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>
+
+</LinearLayout>

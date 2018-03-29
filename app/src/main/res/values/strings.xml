@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">iVocabe</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="ranklabel">"Rank : "</string>
+    <string name="countrylabel">"Country : "</string>
+    <string name="populationlabel">"Population : "</string>
+    <string name="dialogue_name">iVocabe </string>
+    <string name="crash_toast_text">"crash_toast_text"</string>
+    <string name="rate">If you enjoy using iVocabe, please take a moment to rate it. Thanks for your support!</string>
+
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_home_footer">ca-app-pub-9570375322986341/8809307910</string>
+    <string name="interstitial_full_screen">ca-app-pub-9570375322986341/5716240716</string>
+    <string name="facebook_app_id">341688866273194</string>
+
+</resources>

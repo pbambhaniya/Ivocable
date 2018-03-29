@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.multipz.dictionary.Activity.DetailsActivity">
+
+    <LinearLayout
+        android:id="@+id/rel_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/gradient2"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <ImageView
+                android:id="@+id/nav_back"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:src="@drawable/leftarrow" />
+
+            <TextView
+                android:id="@+id/details_formulas_title"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/colorwhite"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/fab_favourite"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_favorite_border" />
+
+            <ImageView
+                android:id="@+id/fab_favourite1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_favorite"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/fab_share"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_share" />
+
+        </android.support.v7.widget.Toolbar>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            ads:adSize="SMART_BANNER"
+            android:visibility="gone"
+            ads:adUnitId="@string/banner_home_footer">
+
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

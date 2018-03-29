@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "165454069478",
+    "firebase_url": "https://ivocabe-861a7.firebaseio.com",
+    "project_id": "ivocabe-861a7",
+    "storage_bucket": "ivocabe-861a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165454069478:android:885d392237ccd770",
+        "android_client_info": {
+          "package_name": "com.multipz.dictionary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165454069478-tckeraaibdjssdinhhhv2i9mmj3gmqq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjOoR8ayoAxRomdLaXRMGvtkMEhM8zD6g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

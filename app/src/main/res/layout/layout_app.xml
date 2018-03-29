@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_lg"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"/>
+
+    <LinearLayout
+        android:layout_toRightOf="@+id/img_lg"
+        android:layout_toLeftOf="@+id/txt_get"
+        android:id="@+id/lnr_desc"
+        android:paddingLeft="10dp"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:layout_marginBottom="5dp"
+            android:text="Title" />
+
+        <TextView
+            android:text="Desc"
+            android:textSize="12sp"
+            android:id="@+id/txt_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:background="@drawable/border4"
+        android:textSize="16sp"
+        android:id="@+id/txt_get"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

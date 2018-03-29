@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_my"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.multipz.dictionary.Activity.MyActivity">
+
+    <LinearLayout
+        android:id="@+id/rel_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/gradient2"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/nav_back"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/leftarrow" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorwhite"
+                android:textSize="20dp"
+                android:text="My Activity"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/list1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:visibility="visible">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/No_data_found"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="No Data Found"
+            android:textSize="30dp"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+        <com.skyfishjy.library.RippleBackground xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/fab_ripple"
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="-215dp"
+            android:layout_marginRight="-215dp"
+            app:rb_color="@color/colorPrimaryDark"
+            app:rb_duration="3000"
+            app:rb_radius="32dp"
+            app:rb_rippleAmount="4"
+            app:rb_scale="6">
+
+            <android.support.design.widget.FloatingActionButton xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/fab_add_word"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_centerInParent="true"
+                android:layout_margin="16dp"
+                android:src="@drawable/ic_add_word"
+                app:backgroundTint="@color/colorwhite"
+                app:borderWidth="0dp" />
+        </com.skyfishjy.library.RippleBackground>
+    </FrameLayout>
+
+</LinearLayout>

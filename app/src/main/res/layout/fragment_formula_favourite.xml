@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.multipz.dictionary.Fragment.FormulaFavouriteFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ExpandableListView
+            android:id="@+id/list_formulas"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:divider="@color/colorPrimary"
+            android:groupIndicator="@null"/>
+
+        <TextView
+            android:id="@+id/No_data_found"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="No Data Found"
+            android:textSize="30dp"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+
+    </FrameLayout>
+
+
+</FrameLayout>
